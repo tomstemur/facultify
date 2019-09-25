@@ -1,4 +1,4 @@
-var count = [];
+var count = 0;
 var match = ["21","24","01","11","12","14","15","16","18","19","28","31","62","66","69"];
 
 $(".popupcardhover").each( function() {
