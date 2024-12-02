@@ -38,7 +38,10 @@ $(".popupcardhover").each( function() {
 });
 
 $(".record").each( function() {
+  if ($(this).css("background-color")=="rgb(144, 238, 144)") {
     console.log($(this).css("background-color"));
+  } else {
+    $(this).css("display","none");
   });
 
 $(".brand").text("Science Contracts (" + count + ")");
