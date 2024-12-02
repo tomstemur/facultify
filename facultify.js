@@ -32,6 +32,7 @@ $(".popupcardhover").each( function() {
   var newCode = $(this).text();
   console.log(newCode);
   if (match.includes(costCode) || list.includes(newCode)) {
+    $(this).parents(".record").css("background-color","LightGreen");
     count++;
   } else if (!isNaN(costCode)) {
     $(this).parents(".record").css("display","none");
