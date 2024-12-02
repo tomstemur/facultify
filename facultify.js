@@ -38,11 +38,7 @@ $(".popupcardhover").each( function() {
 });
 
 $(".record").each( function() {
-  if ($(this).css("background-color")=="LightGreen") {
-    console.log("This is green.");
-  } else {
-    $(this).css("display","none");
-  }
-});
+    console.log($(this).css("background-color"));
+  }});
 
 $(".brand").text("Science Contracts (" + count + ")");
