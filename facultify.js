@@ -28,14 +28,20 @@ var list = [
 
 $(".popupcardhover").each( function() {
   var costCode = $(this).text().substring(0,2);
-  console.log(costCode);
   var newCode = $(this).text();
-  console.log(newCode);
   if (match.includes(costCode) || list.includes(newCode)) {
     $(this).parents(".record").css("background-color","LightGreen");
     count++;
   } else if (!isNaN(costCode)) {
     $(this).parents(".record").css("display","none");
+  }
+});
+
+$(".record").each( function() {
+  if ($(this).css("background-color")=="LightGreen") {
+    console.log("This is green.");
+  } else {
+    $(this).css("display","none");
   }
 });
 
