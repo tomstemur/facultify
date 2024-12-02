@@ -42,6 +42,7 @@ $(".record").each( function() {
     console.log($(this).css("background-color"));
   } else {
     $(this).css("display","none");
+  }
   });
 
 $(".brand").text("Science Contracts (" + count + ")");
