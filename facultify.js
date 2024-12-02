@@ -27,7 +27,9 @@ var list = [
 
 $(".popupcardhover").each( function() {
   var costCode = $(this).text().substring(0,2);
+  console.log(costCode);
   var newCode = $(this).text();
+  console.log(newCode);
   if (match.includes(costCode) || list.includes(newCode)) {
     count++;
   } else if (!isNaN(costCode)) {
