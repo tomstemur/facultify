@@ -39,6 +39,6 @@ $(".popupcardhover").each( function() {
 
 $(".record").each( function() {
     console.log($(this).css("background-color"));
-  }});
+  });
 
 $(".brand").text("Science Contracts (" + count + ")");
