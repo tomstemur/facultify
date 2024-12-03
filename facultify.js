@@ -30,7 +30,7 @@ $(".popupcardhover").each( function() {
   var costCode = $(this).text().substring(0,2);
   var newCode = $(this).text();
   if (match.includes(costCode) || list.includes(newCode)) {
-    $(this).parents(".record").css("background-color","rgb(0, 0, 1)");
+    $(this).parents(".record").css("background-color","rgb(216, 251, 255)");
     count++;
   } else if (!isNaN(costCode)) {
     $(this).parents(".record").css("display","none");
@@ -38,7 +38,7 @@ $(".popupcardhover").each( function() {
 });
 
 $(".record").each( function() {
-  if ($(this).css("background-color")=="rgb(0, 0, 1)") {
+  if ($(this).css("background-color")=="rgb(216, 251, 255)") {
     console.log($(this).css("background-color"));
   } else {
     $(this).css("display","none");
