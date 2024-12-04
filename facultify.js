@@ -23,7 +23,9 @@ var list = [
 "Research and Innovation Central",
 "Research and Innovation Strategy",
 "Vice Chancellor's Office Central Dept",
-"Nanoscale and Microscale Research Centre"
+"Nanoscale and Microscale Research Centre",
+"Nanoscale and Microscale Research Centre Central",
+"UoN"
 ];
 
 $(".popupcardhover").each( function() {
