@@ -25,7 +25,8 @@ var list = [
 "Research and Innovation Strategy",
 "Vice Chancellor's Office Central Dept",
 "Education Centre",
-"Digital Research Service"
+"Digital Research Service",
+"UoN"
 ];
 
 $(".popupcardhover").each( function() {
