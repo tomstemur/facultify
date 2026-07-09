@@ -23,6 +23,7 @@ var list = [
 "Physics and Astronomy",
 "Psychology Dept",
 "Psychology",
+"Science Central",
 "Science Central Dept",
 "Digital Research Service Central",
 "Global Engagement Support",
